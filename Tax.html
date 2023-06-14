@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Tax.css">
+</head>
+
+<body>
+    <div id="sectionlogin">
+        <br /><br /><br /><br />
+        <h1 class="text-center">
+            TAX FILLING APPLICATION
+        </h1>
+        <center>
+            <form class=" pt-5">
+                <h4 class="text-black ">Email </h4>
+                <div class="p-2 m-2"><input></div>
+                <h4 class="text-black pt-2">Password </h4>
+                <div class="p-2 m-2 pb-3"><input></div>
+            </form>
+        </center>
+        <center><button class="btn btn-primary m-2" onclick="display('sectionpagehome1')"> Login</button></center>
+
+    </div>
+
+
+    <div id="sectionpagehome1">
+        <div class="">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transprent">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="data:image/jpeg;base64,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" class="tax-logo" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+
+                            <a class="nav-link" href="#" id="navItem2">Tax</a>
+                            <a class="nav-link" href="#" id="navItem3">Section 80C</a>
+                            <a class="nav-link" href="#" id="navItem4">File My tax</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+                <div class="text-center">
+                    <h2 class="banner-heading mb-3">TAX FILLING APPLICATION</h2>
+                    <p class="banner-caption mb-4">Pay your taxes here</p>
+                    <button class=" btn btn-primary">File my taxes</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
